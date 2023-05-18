@@ -44,7 +44,7 @@ const projects = [
       },
     ],
     image: yuvaan,
-    demo_link: "/",
+    demo_link: "https://yuvaan2023.netlify.app/",
     source_code_link: "https://github.com/ZosTera2438/YuvaanWebsite",
   },
 ];
