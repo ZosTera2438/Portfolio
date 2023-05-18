@@ -5,7 +5,7 @@ import back from "./back.png";
 
 import github from "./github.png";
 
-import yuvaan from "./yuvaan.png";
+import yuvaan from "./yuvaan.webp";
 
 export {
   webd,
