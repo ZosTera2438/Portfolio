@@ -73,7 +73,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <h3 className="text-white whitespace-nowrap font-bold md:text-[50px] xs:text-[40px] text-lg  ">
+        <h3 className="text-white whitespace-nowrap font-bold md:text-[50px] xs:text-[40px] text-2xl  ">
           <p className="m-5 justify-center items-baseline flex flex-row space-x-3">
             <FaHeadset />
             <span>Get In</span>

@@ -32,7 +32,7 @@ const Hero = () => {
                 smooth={true}
                 duration={500}
                 offset={-100}>
-          <div className="w-[35px] h-[64px] cursor-pointer rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className="w-[35px] h-[64px] cursor-pointer rounded-3xl border-4 border-teal-500 flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -42,7 +42,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
+              className="w-3 h-3 rounded-full bg-teal-300 mb-1"
             />
           </div>
         </Link>

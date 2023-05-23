@@ -53,7 +53,7 @@ const About = () => {
       >
         I am pursing Btech in Engineering Physics majors in Electronics from
         Delhi Technological University (DTU). I have a deep interest in Web
-        development. <br />
+        development and working of API. <br />
         <br /> I wish to use my technical acumen to contribute to a team that
         works to create a positive impact on the society.
       </motion.p>

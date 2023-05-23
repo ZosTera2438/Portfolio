@@ -2,6 +2,7 @@ import {
   webd,
   back,
   front,
+  deltech,
   app,
   yuvaan,
 } from "../assets";
@@ -12,7 +13,7 @@ const services = [
     icon: webd,
   },
   {
-    title: "App Developer",
+    title: "REST API",
     icon: app,
   },
   {
@@ -28,7 +29,7 @@ const services = [
 const projects = [
   {
     name: "Yuvaan",
-    description: "I was Frontend Web Developer at Yuvaan, North India’s largest film and literature festival",
+    description: "I developed a website for a cultural fest Yuvaan, North India’s largest film and literature festival",
     tags: [
       {
         name: "html",
@@ -39,13 +40,34 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
     ],
     image: yuvaan,
     demo_link: "https://yuvaan2023.netlify.app/",
     source_code_link: "https://github.com/ZosTera2438/YuvaanWebsite",
+  },
+  {
+    name: "Deltech MUN",
+    description: "Built a website from scratch to maintain the society's online presence, and built an authentication portal for online registration",
+    tags: [
+      {
+        name: "tailwind css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: deltech,
+    demo_link: "https://deltechmun.in/",
+    source_code_link: "https://github.com/ZosTera2438/deltech-website",
   },
 ];
 

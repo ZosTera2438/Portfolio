@@ -6,6 +6,7 @@ import back from "./back.png";
 import github from "./github.png";
 
 import yuvaan from "./yuvaan.webp";
+import deltech from "./deltech.webp";
 
 export {
   webd,
@@ -14,6 +15,6 @@ export {
   front,
   github,  
   yuvaan,
-  // deltech,
+  deltech,
   // apnaStore
 };

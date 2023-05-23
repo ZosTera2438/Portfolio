@@ -76,15 +76,15 @@ const Works = () => {
       <Element name="projects"></Element>
 
       <motion.div variants={textVariant()}>
-        <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
+        {/* <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
           My work
-        </p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-          Projects
+        </p> */}
+        <h2 className="text-teal-300 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+          MY WORK
         </h2>
       </motion.div>
 
-      <div className="w-full flex">
+      {/* <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
@@ -95,9 +95,9 @@ const Works = () => {
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </motion.p>
-      </div>
+      </div> */}
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-8 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
