@@ -9,11 +9,11 @@ import {
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Database Developer",
     icon: webd,
   },
   {
-    title: "REST API",
+    title: "REST API Developer",
     icon: app,
   },
   {
@@ -53,16 +53,20 @@ const projects = [
     description: "Built a website from scratch to maintain the society's online presence, and built an authentication portal for online registration",
     tags: [
       {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
         name: "tailwind css",
         color: "blue-text-gradient",
       },
       {
         name: "firebase",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
-        name: "react",
-        color: "pink-text-gradient",
+        name: "node",
+        color: "green-text-gradient",
       },
     ],
     image: deltech,

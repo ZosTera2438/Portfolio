@@ -24,7 +24,10 @@ module.exports = {
       fontSize: {
         "sectionHeadText": "md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
         "sectionSubText": "sm:text-[18px] text-[14px]",
-      }
+      },
+      fontFamily: {
+        merriweather: ["Merriweather", "sans-serif"],
+      },
     },
   },
   plugins: [],

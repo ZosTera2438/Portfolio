@@ -65,7 +65,7 @@ const Navbar = () => {
               "lg:flex items-center" + (menuOpen ? " flex" : " hidden")
             }
           >
-            <div className="flex flex-col lg:flex-row mt-5 ml-4 lg:ml-auto">
+            <div className="flex flex-col lg:flex-row mt-5 md:m-auto ml-4 ">
               <Link
                 to="hero"
                 smooth={true}
