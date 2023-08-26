@@ -1,12 +1,10 @@
 import { motion } from "framer-motion";
-import { Element } from "react-scroll";
 import { SectionWrapper } from "../utils/SectionWrapper";
 import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
-      <Element name="hero"></Element>
       <div
         className={`absolute inset-0 top-[160px]  max-w-7xl mx-auto sm:px-16 px-6 flex flex-row items-start gap-5`}
       >
@@ -16,10 +14,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`sm:whitespace-nowrap font-black md:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mt-10 text-white`}>
-            Hi, I'm <span className="text-teal-500 ">Vaibhav</span>
+          <h1 className={`sm:whitespace-nowrap font-serif font-black md:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mt-10 text-white`}>
+            Hi, I'm <span className="text-teal-500 font-merriweather">Vaibhav</span>
           </h1>
-          <p className={`text-green-100 font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] my-2`}>
+          <p className={`text-green-100 font-medium font-sans lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] my-2`}>
             an Engineering Student, and <br className="sm:block hidden" />
             coding enthusiast
           </p>

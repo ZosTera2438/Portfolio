@@ -9,27 +9,27 @@ import {
 
 const services = [
   {
+    title: "Quantum Computing",
+    icon: back,
+  },
+  {
     title: "Database Developer",
     icon: webd,
   },
   {
     title: "REST API Developer",
-    icon: app,
-  },
-  {
-    title: "Backend Developer",
-    icon: back,
-  },
-  {
-    title: "Frontend Developer",
     icon: front,
+  },
+  {
+    title: "UI/UX Developer",
+    icon: app,
   },
 ];
 
 const projects = [
   {
-    name: "Yuvaan",
-    description: "I developed a website for a cultural fest Yuvaan, North India’s largest film and literature festival",
+    name: "Yuvaan'23",
+    description: "Developed animated Web UI with seamless navigation to orchestrate Yuvaan, India’s biggest Youth LitFest.",
     tags: [
       {
         name: "html",
@@ -49,8 +49,8 @@ const projects = [
     source_code_link: "https://github.com/ZosTera2438/YuvaanWebsite",
   },
   {
-    name: "Deltech MUN",
-    description: "Built a website from scratch to maintain the society's online presence, and built an authentication portal for online registration",
+    name: "DelTech MUN & Debsoc",
+    description: "Architeched a Web platform to orchestrate North India’s largest Model United Conference 2023.",
     tags: [
       {
         name: "react",

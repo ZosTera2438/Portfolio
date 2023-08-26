@@ -2,8 +2,6 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { FaHeadset } from "react-icons/fa";
-import { Element } from "react-scroll";
-
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../utils/SectionWrapper";
 import { slideIn } from "../utils/motion";
@@ -67,17 +65,15 @@ const Contact = () => {
     <div
       className={`sm:text-[18px] text-[14px] xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
-      <Element name="contact"></Element>
-
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <h3 className="text-white whitespace-nowrap font-bold md:text-[50px] xs:text-[40px] text-2xl  ">
-          <p className="m-5 justify-center items-baseline flex flex-row space-x-3">
+        <h3 className="text-white whitespace-nowrap font-semibold md:text-4xl text-2xl">
+          <p className="m-5 justify-center font-sans flex flex-row space-x-3">
             <FaHeadset />
-            <span>Get In</span>
-            <span className="text-teal-300">Touch</span>
+            &nbsp;Get In
+            <span className="text-teal-300 font-serif">Touch</span>
           </p>
         </h3>
 
