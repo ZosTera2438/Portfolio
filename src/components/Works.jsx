@@ -24,29 +24,26 @@ const ProjectCard = ({
         }}
         className="bg-tertiary rounded-2xl w-[360px]"
       >
-        <div
-          onClick={() => window.open(demo_link, "_blank")}
-          className="relative cursor-zoom-in"
-        >
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full rounded-b-2xl"
-          />
-
-          <div className="absolute inset-0 flex justify-end m-3">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
+        <a href={demo_link} target="_blank" rel="noreferrer">
+          <div className="relative cursor-zoom-in">
+            <img
+              src={image}
+              alt="project_image"
+              className="w-full h-full rounded-b-2xl"
+            />
+            <div className="absolute inset-0 flex justify-end m-3">
+              <a href={source_code_link} target="_blank" rel="noreferrer">
+                <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                  <img
+                    src={github}
+                    alt="source code"
+                    className="w-1/2 h-1/2 object-contain"
+                  />
+                </div>
+              </a>
             </div>
           </div>
-        </div>
+        </a>
 
         <div className="p-5">
           <h3 className="text-white text-sectionSubText font-merriweather text-lg">
