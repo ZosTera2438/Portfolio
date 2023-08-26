@@ -95,7 +95,7 @@ const Navbar = () => {
                 to={nav.id}
                 smooth={true}
                 duration={500}
-                offset={-100}
+                offset={-50}
                 className=" font-serif"
               >
                 {nav.title}

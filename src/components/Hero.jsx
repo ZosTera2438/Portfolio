@@ -14,22 +14,23 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`sm:whitespace-nowrap font-serif font-black md:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mt-10 text-white`}>
-            Hi, I'm <span className="text-teal-500 font-merriweather">Vaibhav</span>
+          <h1
+            className={`sm:whitespace-nowrap font-serif font-black md:text-[65px] sm:text-[50px] text-[40px] lg:leading-[98px] mt-10 text-white`}
+          >
+            Hi, I'm{" "}
+            <span className="text-teal-500 font-merriweather">Vaibhav</span>
           </h1>
-          <p className={`text-green-100 font-medium font-sans lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] my-2`}>
+          <p
+            className={`text-green-100 font-medium font-sans lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] my-2`}
+          >
             an Engineering Student, and <br className="sm:block hidden" />
             coding enthusiast
           </p>
         </div>
       </div>
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <Link
-                to="about"
-                smooth={true}
-                duration={500}
-                offset={-100}>
+      <div className="absolute bottom-8 w-full flex justify-center items-center">
+        <Link to="about" smooth={true} duration={500} offset={-50}>
           <div className="w-[35px] h-[64px] cursor-pointer rounded-3xl border-4 border-teal-500 flex justify-center items-start p-2">
             <motion.div
               animate={{
@@ -45,9 +46,7 @@ const Hero = () => {
           </div>
         </Link>
       </div>
-      
     </section>
-    
   );
 };
 
