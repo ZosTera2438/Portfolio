@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary font-sans max-w-2xl"
       >
-        I am pursing BTech in&nbsp;<i>Engineering Physics,</i>&nbsp;(majors) Electronics, (minors) Computer
+        I am pursing BTech in&nbsp;<i>Engineering Physics,</i>&nbsp;majors in Electronics, minors in Computer
         Science from Delhi Technological University (formerly DCE). <br />
         <br /> I wish to use my technical acumen to contribute to a team that
         works to create a positive impact on the society.

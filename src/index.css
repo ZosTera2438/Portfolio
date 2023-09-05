@@ -15,7 +15,7 @@ a {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   scroll-behavior: smooth;
-  transition: all ease 0.3s;
+  transition: all ease 0.1s;
 }
 
 .black-gradient {

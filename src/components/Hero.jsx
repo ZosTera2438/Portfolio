@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../utils/SectionWrapper";
 import { Link } from "react-scroll";
+import { FaArrowDown } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -23,9 +24,15 @@ const Hero = () => {
           <p
             className={`text-green-100 font-medium font-sans lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] my-2`}
           >
-            an Engineering Student, and <br className="sm:block hidden" />
+            an Engineering Student, and <br />
             coding enthusiast
           </p>
+
+          <Link to="contact" smooth={true} duration={500}>
+            <button className=" my-5 font-merriweather hover:bg-teal-700 border-2 border-gray-500 text-white py-3 px-5 rounded-xl">
+              Let's Talk <FaArrowDown className="ml-1 inline animate-bounce" />
+            </button>
+          </Link>
         </div>
       </div>
 
