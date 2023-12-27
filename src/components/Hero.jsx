@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
 
           <Link to="contact" smooth={true} duration={500}>
-            <button className=" my-5 font-merriweather hover:bg-teal-700 border-2 border-gray-500 text-white py-3 px-5 rounded-xl">
+            <button className=" my-5 font-merriweather hover:bg-gradient-to-b from-teal-900 to-teal-500 border-2 border-gray-500 text-white py-3 px-5 rounded-xl">
               Let's Talk <FaArrowDown className="ml-1 inline animate-bounce" />
             </button>
           </Link>

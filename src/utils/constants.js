@@ -36,10 +36,10 @@ const projects = [
   },
   {
     name: "DelTech MUN & Debsoc",
-    description: "Architeched a Web platform to orchestrate North India’s largest Model United Conference 2023.",
+    description: "Engineered blogging and event registration web platform to orchestrate North India’s largest Model United Conference 2023.",
     image: deltech,
-    demo_link: "https://deltechmun.in/",
-    source_code_link: "https://github.com/ZosTera2438/deltech-website",
+    demo_link: "https://deltechmun24.vercel.app/",
+    source_code_link: "https://github.com/ZosTera2438/deltechmun2024",
   },
 ];
 

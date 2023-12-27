@@ -69,7 +69,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="my-2 mr-4 md:mr-0 border-2 border-gray-600 font-merriweather shadow-teal-600 shadow-lg text-white py-3 px-6 rounded-xl">
+            <button className="my-2 mr-4 md:mr-0 border-2 border-gray-600 font-merriweather shadow-teal-600 shadow-md text-white py-3 px-6 rounded-xl hover:bg-gradient-to-b from-teal-900 to-teal-600 hover:shadow-xl">
               Resume <FaArrowRight className="ml-1 inline" />
             </button>
           </a>
